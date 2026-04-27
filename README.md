@@ -1,3 +1,45 @@
+# The Beatles - Landing Page
+
+A web development project featuring a landing page dedicated to The Beatles. The site includes tour information, a multimedia gallery, and band history, all built with a fully responsive design.
+
+## Features
+
+* **Semantic HTML structure:** Proper use of `header`, `main`, `section`, and `footer` tags for better SEO and accessibility.
+* **Hero section:** High-impact visual landing with a clear Call to Action (CTA) for upcoming events.
+* **Events section:** Structured HTML table (`thead`, `tbody`) displaying tour dates in cities like Barranquilla, Medellín, and Bogotá.
+* **About section:** Descriptive content about the band's history and cultural revolution.
+* **Unordered list (ul):** Detailed lists for "Our Influences" and "Social Links."
+* **Multimedia gallery:** An image grid implemented with **CSS Grid** for a clean, organized layout.
+* **Responsive layout:** Uses **CSS Media Queries** to adapt the design for mobile and desktop views.
+* **Navigation:** Functional navigation menu linked to internal page anchors.
+* **Clean and organized UI:** Dark theme aesthetic with a focus on readability and modern design.
+
+---
+
+## Responsive Design
+
+The page adapts to different screen sizes:
+
+* **Mobile devices:** Simplified layout and typography adjustments.
+* **Desktop screens (>1024px):** Full-width layout optimization.
+
+Media queries are used to adjust:
+* Layout (Grid/Flex)
+* Typography
+* Spacing
+* Navigation
+
+---
+
+## How to Run the Project
+
+### Option 1 – Open directly in browser (Recommended)
+
+1. Download or clone the project repository:
+   ```bash
+   git clone [https://github.com/your-username/project-name.git](https://github.com/your-username/project-name.git)
+   
+
 # html
 events__table {
     width: 100%;
